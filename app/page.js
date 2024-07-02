@@ -22,3 +22,4 @@ export default function MainPage() {
   )
 }
 //hihihihihihi
+// pages/dashboard/index.js
