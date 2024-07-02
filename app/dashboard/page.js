@@ -80,7 +80,8 @@ export default function Component() {
         <div className="flex h-full max-h-screen flex-col gap-2">
           <div className="flex h-[60px] items-center border-b px-6">
             <Link href="#" className="flex items-center gap-2 font-semibold" prefetch={false}>
-              <HeartIcon className="h-6 w-6" />
+              <img src="/CJ_logo.svg" alt="Decoration 1" className="size-8" />
+              {/* <HeartIcon className="h-6 w-6" /> */}
               <span className="">Health Dashboard</span>
             </Link>
             <Button variant="outline" size="icon" className="ml-auto h-8 w-8">
