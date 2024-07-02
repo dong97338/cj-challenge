@@ -12,8 +12,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <img src="/red.svg" alt="Decoration 1" className="fixed bottom-0 left-0 z-10" />
-        <img src="/yellow_blue.svg" alt="Decoration 2" className="fixed top-0 right-0 z-10" />
+        <img src="/red.svg" alt="Decoration 1" className="fixed bottom-0 left-0 -z-10" />
+        <img src="/yellow_blue.svg" alt="Decoration 2" className="fixed top-0 right-0 -z-10" />
         {children}
       </body>
     </html>
